@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+html,
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("./images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+#input {
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 50px;
+  width: 300px;
+  border: 0;
+  border-radius: 10px;
+  padding: 0 0 0 1em;
+  /* display: flex;
+  align-content: center; */
+  color: white;
+  font-size: 24px;
+}
+#input::placeholder {
+  color: white;
+  font-size: 24px;
+}
+#inputDiv {
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+#dataOutput {
+  margin-left: 2em;
+  margin-top: 1em;
+  font-weight: 700;
+  font-size: 24px;
+}
+#temp {
+  font-size: 128px;
+  margin-top: 0;
+  font-weight: 700;
+}
+
+#errorMsg {
+  color: red;
+  font-size: 16px;
+  margin-left: 1em;
+  margin-top: 0.5em;
+  height: 1.2em; /* reserves space even when empty */
+}
